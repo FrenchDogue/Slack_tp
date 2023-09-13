@@ -8,3 +8,23 @@
   background-color: #4a154b;
   width: 100%;
 }
+
+main {
+  background: #ebedf2;
+  min-height: calc(100vh - 65px);
+  padding-top: 65px;
+}
+
+aside {
+  background: #d1d1d1;
+  width: 250px;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 1000;
+
+  .scroller {
+    overflow-y: auto;
+    max-height: 100vh;
+    padding-bottom: 65px;
+  }
+}
