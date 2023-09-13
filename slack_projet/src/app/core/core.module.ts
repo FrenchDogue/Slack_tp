@@ -14,7 +14,7 @@ import { CanauxModule } from '../canaux/canaux.module';
     CanauxModule
   ],
   exports:[
-    NavComponent
+    NavComponent,
   ]
 })
 export class CoreModule { }
