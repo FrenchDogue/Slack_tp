@@ -1,27 +1,34 @@
-<header class="fixed-top">
-  <nav class="navbar">
-    <a class="navbar-brand" href="#">
-      <img
-        src="https://pentagram-production.imgix.net/618d5092-a542-4dae-bd27-a3afb4bcc12d/mb_slack_01.jpg?crop=edges&fit=crop&h=630&rect=0%2C74%2C3000%2C1872&w=1200"
-        width="200px"
-        height="100px"
-        class="d-inline-block align-top"
-        alt="slack_icon"
-      />
-    </a>
-  </nav>
-</header>
+<main class="d-flex flex-direction-column">
+  <!-- <header> -->
+  <header class="fixed-top">
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://pentagram-production.imgix.net/618d5092-a542-4dae-bd27-a3afb4bcc12d/mb_slack_01.jpg?crop=edges&fit=crop&h=630&rect=0%2C74%2C3000%2C1872&w=1200"
+          width="200px"
+          height="100px"
+          class="d-inline-block align-top"
+          alt="slack_icon"
+        />
+      </a>
+    </nav>
+  </header>
 
-<main>
-  <div class="shadow position-fixed"></div>
-  <aside>
-    <div class="scroller">
-      <app-nav></app-nav>
-    </div>
-  </aside>
-  <div class="page">
-    <div class="contents">
-      <router-outlet></router-outlet>
+
+  <div class="customBody d-flex">
+    <aside>
+      <div class="scroller">
+        <app-nav></app-nav>
+      </div>
+    </aside>
+    <div class="page">
+      <div class="contents">
+        <router-outlet></router-outlet>
+      </div>
     </div>
   </div>
+
+<!-- 
+  <div class="shadow position-fixed"></div> -->
+  
 </main>
