@@ -9,10 +9,10 @@ import { NavComponent } from './components/nav/nav.component';
     NavComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports:[
-    NavComponent
+    NavComponent,
   ]
 })
 export class CoreModule { }
