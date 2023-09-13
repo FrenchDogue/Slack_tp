@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavComponent } from './components/nav/nav.component';
+import { CanauxModule } from '../canaux/canaux.module';
 
 
 
@@ -9,7 +10,8 @@ import { NavComponent } from './components/nav/nav.component';
     NavComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CanauxModule
   ],
   exports:[
     NavComponent
