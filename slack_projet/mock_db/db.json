@@ -43,12 +43,12 @@
       ]
     },
     {
-      "canalName": "test",
+      "canalName": null,
       "messages": null,
       "id": 3
     },
     {
-      "canalName": "test1",
+      "canalName": "canality jane",
       "messages": null,
       "id": 4
     }
