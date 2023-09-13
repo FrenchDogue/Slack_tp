@@ -12,14 +12,23 @@ export class CanalDiscussionComponent {
   public canal!: Canal;
   public id!: number;
 
-  constructor(
-    private activatedRoute: ActivatedRoute,
-    private canauxMessagesService: CanauxMessagesService
-  ) {
-    this.id = Number(this.activatedRoute.snapshot.paramMap.get('id'));
+  constructor(private activatedRoute : ActivatedRoute, private canauxMessagesService: CanauxMessagesService) {
+    // this.id = Number(this.activatedRoute.snapshot.paramMap.get('id'));
+    // console.log(this.id);
 
-    this.canauxMessagesService
-      .getCanalById(this.id)
-      .subscribe((data) => (this.canal = data));
+    this.activatedRoute.paramMap.subscribe((paramMap) => {
+      // console.log(paramMap);
+      this.id = Number(paramMap.get("id"));
+      console.log(this.id);
+
+      
+      this.canauxMessagesService.getCanalById(this.id).subscribe(
+        (data) => (this.canal = data)
+      );
+
+
+    });
+    console.log(this.id);
+    
   }
 }
