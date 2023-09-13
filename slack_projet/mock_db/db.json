@@ -41,6 +41,21 @@
           "id": "2023-09-13T06:27:31.504Z"
         }
       ]
+    },
+    {
+      "canalName": null,
+      "messages": null,
+      "id": 3
+    },
+    {
+      "canalName": null,
+      "messages": null,
+      "id": 4
+    },
+    {
+      "canalName": "ah que coucou",
+      "messages": null,
+      "id": 5
     }
   ]
 }
