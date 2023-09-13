@@ -1,6 +1,6 @@
-<main class="d-flex flex-direction-column">
-  <!-- <header> -->
-  <header class="fixed-top">
+
+<div class="presentation d-flex flex-direction-column flex-wrap">
+  <header class="header_presentation">
     <nav class="navbar">
       <a class="navbar-brand" href="#">
         <img
@@ -13,9 +13,8 @@
       </a>
     </nav>
   </header>
-
-
-  <div class="customBody d-flex">
+  <main class="d-flex flex-direction-row">
+    <div class="shadow position-fixed"></div>
     <aside>
       <div class="scroller">
         <app-nav></app-nav>
@@ -26,9 +25,5 @@
         <router-outlet></router-outlet>
       </div>
     </div>
-  </div>
-
-<!-- 
-  <div class="shadow position-fixed"></div> -->
-  
-</main>
+  </main>
+</div>

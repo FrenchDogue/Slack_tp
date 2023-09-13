@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  // box-sizing: border-box;
 }
 
 .navbar {
@@ -12,19 +11,22 @@
 main {
   background: #ebedf2;
   min-height: calc(100vh - 65px);
-  // padding-top: 65px;
+  width: auto;
 }
 
 aside {
   background: #d1d1d1;
-  width: 250px;
+  width: auto;
   min-height: 100vh;
-  position: fixed;
-  // z-index: 1000;
+  min-width: 20vw;
 
   .scroller {
     overflow-y: auto;
     max-height: 100vh;
     padding-bottom: 65px;
   }
+}
+
+.header_presentation {
+  width: 100%;
 }
