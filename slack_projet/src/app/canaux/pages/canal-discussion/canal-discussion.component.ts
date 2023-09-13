@@ -6,10 +6,9 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-canal-discussion',
   templateUrl: './canal-discussion.component.html',
-  styleUrls: ['./canal-discussion.component.scss']
+  styleUrls: ['./canal-discussion.component.scss'],
 })
 export class CanalDiscussionComponent {
-
   public canal!: Canal;
   public id!: number;
 
@@ -30,8 +29,6 @@ export class CanalDiscussionComponent {
 
     });
     console.log(this.id);
-
     
   }
-  
 }
