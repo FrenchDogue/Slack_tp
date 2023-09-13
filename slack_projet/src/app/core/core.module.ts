@@ -11,10 +11,7 @@ import { CanauxModule } from '../canaux/canaux.module';
   ],
   imports: [
     CommonModule,
-<<<<<<< HEAD
-=======
     CanauxModule
->>>>>>> 8f6afec18c0155139684201a23d7cadaddd97a3a
   ],
   exports:[
     NavComponent,

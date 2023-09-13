@@ -15,4 +15,11 @@ export class CanauxMessagesService {
   public getData(): Observable<Canal[]> {
     return this.http.get<Canal[]>(this.configUrl);
   }
+  
+  public getCanalById(id: number): Observable<Canal> {
+    return this.http.get<Canal>(`${this.configUrl}/${id}`);
+  }
+
+
+
 }
