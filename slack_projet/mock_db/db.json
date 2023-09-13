@@ -43,11 +43,16 @@
       ]
     },
     {
+<<<<<<< HEAD
       "canalName": null,
+=======
+      "canalName": "test",
+>>>>>>> 4c067071f3d3e1c67cbcc63a4c66d9eedb240666
       "messages": null,
       "id": 3
     },
     {
+<<<<<<< HEAD
       "canalName": null,
       "messages": null,
       "id": 4
@@ -56,6 +61,11 @@
       "canalName": "ah que coucou",
       "messages": null,
       "id": 5
+=======
+      "canalName": "test1",
+      "messages": null,
+      "id": 4
+>>>>>>> 4c067071f3d3e1c67cbcc63a4c66d9eedb240666
     }
   ]
 }

@@ -13,14 +13,20 @@ export class NavComponent {
 
   public newCanal = new Canal();
 
-  constructor(private canauxMessagesService: CanauxMessagesService, private router:Router) {
+  constructor(
+    private canauxMessagesService: CanauxMessagesService,
+    private router: Router
+  ) {
     this.canauxMessagesService.getData().subscribe((data) => (this.tab = data));
   }
 
-  public onAdd(canal:Canal) {
+  public onAdd(canal: Canal) {
     this.canauxMessagesService
       .addData(canal)
-      .subscribe(()=>this.router.navigate(["accueil"])
-      );
+      .subscribe((response) => this.tab.push(response));
+  }
+
+  public goToCanal(canal: Canal) {
+    this.router.navigate(['accueil', 'canal', canal.id]);
   }
 }
