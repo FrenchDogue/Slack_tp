@@ -9,9 +9,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CanalDiscussionComponent } from './pages/canal-discussion/canal-discussion.component';
 
 @NgModule({
-  declarations: [AccueilComponent, CanalDiscussionComponent],
-  imports: [CommonModule, CanauxRoutingModule, ReactiveFormsModul],
-  exports: [AccueilComponent, FormComponen],
-
+  declarations: [AccueilComponent, CanalDiscussionComponent, FormComponent],
+  imports: [CommonModule, CanauxRoutingModule, ReactiveFormsModule],
+  exports: [AccueilComponent, FormComponent],
 })
 export class CanauxModule {}
