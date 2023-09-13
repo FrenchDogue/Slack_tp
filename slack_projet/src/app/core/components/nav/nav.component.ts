@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Canal } from '../../models/canal';
 import { CanauxMessagesService } from 'src/app/canaux/services/canaux-messages.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -10,7 +11,16 @@ import { CanauxMessagesService } from 'src/app/canaux/services/canaux-messages.s
 export class NavComponent {
   public tab!: Canal[];
 
-  constructor(private canauxMessagesService: CanauxMessagesService) {
+  public newCanal = new Canal();
+
+  constructor(private canauxMessagesService: CanauxMessagesService, private router:Router) {
     this.canauxMessagesService.getData().subscribe((data) => (this.tab = data));
+  }
+
+  public onAdd(canal:Canal) {
+    this.canauxMessagesService
+      .addData(canal)
+      .subscribe(()=>this.router.navigate(["accueil"])
+      );
   }
 }

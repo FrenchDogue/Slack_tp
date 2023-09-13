@@ -1,47 +1,71 @@
 {
-	"canals":[
-		{
-			"canalName": "general",
-			"id": 1,
-			"messages":[
-				{
-					"text": "Hello world!",
-					"date": "2023-09-13T06:26:31.504Z",
-					"id": "2023-09-13T06:26:31.504Z"
-				},
-				{
-					"text": "On se met au boulot ?",
-					"date": "2023-09-13T06:27:31.504Z",
-					"id": "2023-09-13T06:27:31.504Z"
-				},
-				{
-					"text": "ok",
-					"date": "2023-09-13T06:28:31.504Z",
-					"id": "2023-09-13T06:28:31.504Z"
-				},
-				{
-					"text": "allez",
-					"date": "2023-09-13T06:30:31.504Z",
-					"id": "2023-09-13T06:30:31.504Z"
-				}
-			]
-		},
-		{
-			"canalName": "aléatoire",
-			"id": 2,
-			"messages":[
-				{
-					"text": "C'est l'histoire d'un tétard, il pensait qu'il était tôt, mais en fait il est tétard.",
-					"date": "2023-09-13T06:26:31.504Z",
-					"id": "2023-09-13T06:26:31.504Z"
-				},
-				{
-					"text": "Qu'est-ce qu'on se marre...",
-					"date": "2023-09-13T06:27:31.504Z",
-					"id": "2023-09-13T06:27:31.504Z"
-				}
-			]
-		}
-	]
+  "canals": [
+    {
+      "canalName": "general",
+      "id": 1,
+      "messages": [
+        {
+          "text": "Hello world!",
+          "date": "2023-09-13T06:26:31.504Z",
+          "id": "2023-09-13T06:26:31.504Z"
+        },
+        {
+          "text": "On se met au boulot ?",
+          "date": "2023-09-13T06:27:31.504Z",
+          "id": "2023-09-13T06:27:31.504Z"
+        },
+        {
+          "text": "ok",
+          "date": "2023-09-13T06:28:31.504Z",
+          "id": "2023-09-13T06:28:31.504Z"
+        },
+        {
+          "text": "allez",
+          "date": "2023-09-13T06:30:31.504Z",
+          "id": "2023-09-13T06:30:31.504Z"
+        }
+      ]
+    },
+    {
+      "canalName": "aléatoire",
+      "id": 2,
+      "messages": [
+        {
+          "text": "C'est l'histoire d'un tétard, il pensait qu'il était tôt, mais en fait il est tétard.",
+          "date": "2023-09-13T06:26:31.504Z",
+          "id": "2023-09-13T06:26:31.504Z"
+        },
+        {
+          "text": "Qu'est-ce qu'on se marre...",
+          "date": "2023-09-13T06:27:31.504Z",
+          "id": "2023-09-13T06:27:31.504Z"
+        }
+      ]
+    },
+    {
+      "canalName": null,
+      "messages": null,
+      "id": 3
+    },
+    {
+      "canalName": "test",
+      "messages": null,
+      "id": 4
+    },
+    {
+      "canalName": "test1",
+      "messages": null,
+      "id": 5
+    },
+    {
+      "canalName": "test2",
+      "messages": null,
+      "id": 6
+    },
+    {
+      "canalName": "test2",
+      "messages": null,
+      "id": 7
+    }
+  ]
 }
-		
