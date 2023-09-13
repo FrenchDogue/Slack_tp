@@ -15,7 +15,15 @@ export class CanauxMessagesService {
     return this.http.get<Canal[]>(this.configUrl);
   }
 
+
   public addData(canal:Canal): Observable<Canal> {
     return this.http.post<Canal>(this.configUrl, canal);
   }
+
+  
+  public getCanalById(id: number): Observable<Canal> {
+    return this.http.get<Canal>(`${this.configUrl}/${id}`);
+  }
+
+
 }

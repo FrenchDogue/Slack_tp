@@ -41,31 +41,4 @@
           "id": "2023-09-13T06:27:31.504Z"
         }
       ]
-    },
-    {
-      "canalName": null,
-      "messages": null,
-      "id": 3
-    },
-    {
-      "canalName": "test",
-      "messages": null,
-      "id": 4
-    },
-    {
-      "canalName": "test1",
-      "messages": null,
-      "id": 5
-    },
-    {
-      "canalName": "test2",
-      "messages": null,
-      "id": 6
-    },
-    {
-      "canalName": "test2",
-      "messages": null,
-      "id": 7
     }
-  ]
-}
