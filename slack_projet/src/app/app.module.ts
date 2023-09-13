@@ -10,13 +10,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent],
 
-  imports: [BrowserModule, AppRoutingModule, CoreModule, CanauxModule, HttpClientModule, NgbModule],
-
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CoreModule,
+    CanauxModule,
+    HttpClientModule,
+    NgbModule,
+  ],
 })
 export class AppModule {}
